@@ -114,3 +114,41 @@
 }
 
 /*****************TopMenu*****************/
+
+.topMenu__wrapper {}
+
+.topMenu__area {
+    // background: var(--color3);
+}
+
+.topMenu {
+    display: flex;
+}
+
+.topMenu li {
+    list-style: none;
+    margin-right: 2px;
+}
+
+.topMenu li a {
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    white-space: nowrap;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background: var(--color3);
+    transition: all .3s;
+}
+
+.topMenu li.active a {
+
+    background: var(--color2);
+}
+
+.topMenu li a:hover {
+
+    background: var(--color1);
+}

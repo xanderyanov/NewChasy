@@ -19,7 +19,7 @@ mixin topLine
 mixin header 
   .wrapper 
     .container 
-      header.header.row.pt-2  
+      header.header.row.py-2  
         .col-3 
           .logo1 
             a(href="/")
@@ -33,9 +33,20 @@ mixin header
             .header__btn.xBtn Заказать звонок
 
 mixin topMenu 
-  .wrapper 
+  .wrapper.topMenu__wrapper 
     .container 
-      .topMenu__area 
+      nav.topMenu__area.row 
+        ul.topMenu.col
+          li.active
+            a(href="#") Главная
+          li
+            a(href="#") Каталог
+          li
+            a(href="#") Доставка
+          li
+            a(href="#") Акции
+          li
+            a(href="#") Магазины
 
 mixin locationPopUp 
   .overlay(data-overlay="flybox1") 
