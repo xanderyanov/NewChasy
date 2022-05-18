@@ -1,0 +1,58 @@
+mixin topLine 
+  .wrapper.topLine__wrapper 
+    .container 
+      .topLine.row.py-2
+        .col-4
+          .topLine__location 
+            i.bi.bi-geo-alt-fill
+            span.locationName.openFlyBoxBtn(data-id="flybox1") Укажите город
+        .col-8.d-flex.justify-content-end
+          .topLine__phone 
+            i.bi.bi-phone-vibrate
+            a(href="tel:+79179888833") 8-800-700-21-27
+          .topLine__phone.topLine__phone_location 
+            i.bi.bi-phone-vibrate
+            a(href="tel:+79179888833") 8-917-988-88-33 
+
+
+
+mixin header 
+  .wrapper 
+    .container 
+      header.header.row.pt-2  
+        .col-3 
+          .logo1 
+            a(href="/")
+              img(src="assets/img/logo1.png", alt="") 
+        .col-6
+          .header__slogan 
+            span Сеть магазинов в Саратове, Энгельсе и Пензе
+            span Подарите близким свое время 
+        .col-3 
+          .header__cont
+            .header__btn.xBtn Заказать звонок
+
+mixin topMenu 
+  .wrapper 
+    .container 
+      .topMenu__area 
+
+mixin locationPopUp 
+  .overlay(data-overlay="flybox1") 
+    .overlay__inner
+      .flyBox
+        .flyBox__close 
+          i.bi.bi-x-lg
+        .flyBox__inner.xScroll 
+          .location__town(data-town="engels") Энгельс
+          .location__town(data-town="saratov") Саратов
+          .location__town(data-town="penza") Пенза
+
+          
+        
+
+
+
+
+
+
