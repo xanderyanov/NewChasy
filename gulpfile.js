@@ -119,7 +119,7 @@ gulp.task("vendorsJs", function () {
 	);
 });
 
-var myjsfiles = ["src/assets/js/__location.js", "src/assets/js/app.js", "src/assets/js/__resize.js"];
+var myjsfiles = ["src/assets/js/__location.js", "src/assets/js/__sliders.js", "src/assets/js/app.js", "src/assets/js/__resize.js"];
 
 gulp.task("myJs", function () {
 	return (

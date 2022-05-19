@@ -5,11 +5,12 @@ function newFunc() {
 }
 
 function siteResizeFunction() {
+	windowWidth = $window.width();
 	topLine3 = $(".topLine3__area").height();
 	header3 = $(".header3__area");
 	header3Height = $(".header3__area").height();
 	prevWindowWidth = windowWidth;
-	windowWidth = $window.width();
+
 
 	newFunc();
 

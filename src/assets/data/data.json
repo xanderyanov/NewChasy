@@ -1,8 +1,14 @@
 {
 	"logo": "Site name",
-
-	"size": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
-
+	"size": [
+		"XS",
+		"S",
+		"M",
+		"L",
+		"XL",
+		"XXL",
+		"XXXL"
+	],
 	"labels": {
 		"copy": {
 			"company": "© \"Company\" 2018",
@@ -14,67 +20,62 @@
 			"message": "<p>Неправильно набран адрес, или такой страницы больше не существует.</p><p>Чтобы продолжить работу с сайтом <a href='/'>вернитесь на главную страницу.</a></p>"
 		}
 	},
-	"eCatalogBaseSlider": [
+	"catalog": [
 		{
 			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
+			"title": "W1160L1 GUESS LADIES",
+			"content": "",
 			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/01.jpg"
+			"price": "19990",
+			"oldPrice": "",
+			"img": "assets/img/cat/01.jpg"
 		},
 		{
 			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
+			"title": "W1160L1 LADIES",
+			"content": "",
 			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/02.jpg"
-		},{
+			"price": "19990",
+			"oldPrice": "",
+			"img": "assets/img/cat/02.jpg"
+		},
+		{
 			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
+			"title": "W1160L1 GUESS",
+			"content": "",
 			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/03.jpg"
-		},{
+			"price": "19990",
+			"oldPrice": "",
+			"img": "assets/img/cat/03.jpg"
+		},
+		{
 			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
+			"title": "GUESS LADIES",
+			"content": "",
 			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/04.jpg"
-		},{
+			"price": "19990",
+			"oldPrice": "",
+			"img": "assets/img/cat/04.jpg"
+		},
+		{
 			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
+			"title": "W1160L1 LADIES",
+			"content": "",
 			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/05.jpg"
-		},{
+			"price": "19990",
+			"oldPrice": "",
+			"img": "assets/img/cat/05.jpg"
+		},
+		{
 			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
+			"title": "W1160L1 GUESS",
+			"content": "",
 			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/06.jpg"
-		},{
-			"id": "321321321",
-			"title": "Sebastian Professional",
-			"content": "Кондиционер Dark Oil Lightweight Conditioner",
-			"discount": "-50%",
-			"price": "2500",
-			"oldPrice": "3500",
-			"img": "btlassets/img/ecatalog/07.jpg"
+			"price": "19990",
+			"oldPrice": "",
+			"img": "assets/img/cat/06.jpg"
 		}
 	],
-
 	"eCatalogBaseFav": [
 		{
 			"id": "321321321",
@@ -131,7 +132,6 @@
 			"img": "btlassets/img/ecatalog/06.jpg"
 		}
 	],
-
 	"eCatalogBase": [
 		{
 			"id": "321321321",

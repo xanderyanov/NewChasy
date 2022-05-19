@@ -1,10 +1,11 @@
 function closeFlyBox() {
     $("body").removeClass("stop");
-    $(".overlay").fadeOut();
+    $(".overlay").fadeOut(200);
 }
 
 $(function () {
 
+    /********************FlyBox*********************/
     $(".openFlyBoxBtn").on("click", function (e) {
         e.preventDefault();
         var $this = $(this);
@@ -16,22 +17,15 @@ $(function () {
     $(".flyBox").on("click", function (e) {
         e.stopPropagation();
     });
-
-    // Закрытие акции по кнопке Close
     $(".flyBox__close").on("click", function (e) {
         e.preventDefault();
-        $(".overlay").fadeOut(200);
-        $("body").removeClass("stop");
+        closeFlyBox();
     });
-
-    // Закрытие акции по оверлею
     $(".overlay").on("click", function (e) {
         e.stopPropagation();
         e.preventDefault();
-        $("body").removeClass("stop");
-        $(".overlay").fadeOut();
+        closeFlyBox();
     });
-
 
 
 });

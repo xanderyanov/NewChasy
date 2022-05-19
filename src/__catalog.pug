@@ -1,0 +1,16 @@
+mixin catalog 
+  .wrapper 
+    .container-fluid.container-xl 
+      .row.py-2
+        .col 
+          .catalog__area 
+            .catalog__side 
+
+            .catalog 
+              each item in catalog
+                .catalog__item 
+                  .catalog__itemImg 
+                    img(src=item.img, alt="")
+                  .catalog__itemTitle=item.title 
+                  .catalog__itemPrice=item.price 
+
